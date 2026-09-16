@@ -92,4 +92,13 @@ body {
     .header-container {
         padding-top: 164px;
     }
+    }
+@media (max-width: 991px){
+    .header-container {
+        padding-top: 116px;
+    }
+    body{
+        height: cacl(100vh - 116px);
+    }
 }
+
